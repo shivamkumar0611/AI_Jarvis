@@ -129,10 +129,9 @@ def takeCommand():
             
 # Defining Task 3: To see the current Time
 first import datetime library then use datetime.now() function as :
-  elif 'time' in statement:
+      elif 'time' in statement:
             strTime=datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"the time is {strTime}")
-
 # Defining Task 4: To play music
         elif 'play music' in statement:
             music_dir = 'F:\music pc'
