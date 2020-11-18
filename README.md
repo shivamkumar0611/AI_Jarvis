@@ -1,6 +1,8 @@
 # shivamkumar0611 \( AI_Jarvis \)
 Created and Tested on Windows 10 with Python 3.6
 An attempt to make a very simple, Personal Assistant that understands speech as well as text input and is capable of performing tasks other than conversing. This project is based on weak AI and this project does not implement any sort of machine learning or language processing. Combined with a few python scripts, J.A.R.V.I.S now performs quite a few tasks:
+## Just goto AI_Jarvis/__pycache__/ and download virtualAI.cpython-36.pyc file in a new folder so that the pictures will be save in that folder only :)
+That's all leave everything ...
 
 # Imagine how easier it would be to send emails without typing a single word, doing Wikipedia searches without opening web browsers, and performing many other daily tasks like playing music with the help of a single voice command.
 
