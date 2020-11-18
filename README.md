@@ -176,6 +176,10 @@ Note: Do not forget to 'enable the less secure apps' feature in your Gmail accou
                 print(e)
                 speak("Sorry my friend shivam. I am not able to send this email")   
                 
+ <p align="center">
+  <img src="https://github.com/shivamkumar0611/AI_Jarvis/blob/master/files/chrome_Wc8TFstzp4.png">
+</p>
+                
 # Recapitulate
 1. First of all, we have created a wishme() function that gives the functionality of greeting according to the system time to our A.I.
 2. After wishme() function, we have created a takeCommand() function, which helps our A.I to take command from the user. This function is also responsible for returning the user's query in a string format.
