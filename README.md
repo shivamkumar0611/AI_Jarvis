@@ -129,9 +129,10 @@ def takeCommand():
             
 # Defining Task 3: To see the current Time
 first import datetime library then use datetime.now() function as :
-      elif 'time' in statement:
+        elif 'time' in statement:
             strTime=datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"the time is {strTime}")
+            
 # Defining Task 4: To play music
         elif 'play music' in statement:
             music_dir = 'F:\music pc'
@@ -150,13 +151,14 @@ The receiver:T Email of the receiver.
 The message: A string message which needs to be sent to one or more than one recipient.
 
 # Defining Send email function :
-def sendEmail(to, content):
-    server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.ehlo()
-    server.starttls()
-    server.login('youremail@gmail.com', 'your-password')
-    server.sendmail('youremail@gmail.com', to, content)
-    server.close()
+        def sendEmail(to, content):
+         server = smtplib.SMTP('smtp.gmail.com', 587)
+         server.ehlo()
+         server.starttls()
+         server.login('youremail@gmail.com', 'your-password')
+         server.sendmail('youremail@gmail.com', to, content)
+         server.close()
+         
 In the above code, we are using the SMTP module, which we have already discussed above.
 
 Note: Do not forget to 'enable the less secure apps' feature in your Gmail account. Otherwise, the sendEmail function will not work properly.
