@@ -111,7 +111,7 @@ def takeCommand():
             speak("According to Wikipedia")
             print(results)
             speak(results)
-# Defining Task 2: To open YouTube site , mail,google , see current time 
+# Defining Task 2: To open YouTube site , mail,google in new browser
         elif 'open youtube' in statement:
             webbrowser.open_new_tab("https://www.youtube.com")
             speak("youtube is open now")
@@ -127,18 +127,20 @@ def takeCommand():
             speak("Google Mail open now")
             time.sleep(5)
             
-        elif 'time' in statement:
+# Defining Task 3: To see the current Time
+first import datetime library then use datetime.now() function as :
+  elif 'time' in statement:
             strTime=datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"the time is {strTime}")
-            
-# Defining Task 3: To play music
+
+# Defining Task 4: To play music
         elif 'play music' in statement:
             music_dir = 'F:\music pc'
             songs = os.listdir(music_dir)
             print(songs)    
             os.startfile(os.path.join(music_dir, songs[0]))
 
-# Defining Task 7: To send Email
+# Defining Task 5: To send Email
 To send an email, we need to import a module called smtplib.
 
 What is smtplib?
