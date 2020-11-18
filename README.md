@@ -37,7 +37,6 @@ No module named win32com.client
 No module named win32
 No module named win32api
 Then, install pypiwin32 by typing the below command in the terminal :
-
 pip install pypiwin32.
 After successfully installing pyttsx3, import this module in your program.
 
@@ -67,8 +66,8 @@ engine.runAndWait() #Without this command, speech will not be audible to us.
 Now, we will create a main() function, and inside this main() Function, we will call our speak function.
 
 Code:
-if __name__ == "__main__":
-    wishMe()
+         if __name__ == "__main__":
+            wishMe()
 Whatever you will write inside this speak() function will be converted into speech. Congratulations! With this, our J.A.R.V.I.S. has its own voice, and it is ready to speak.
 
 # Defining Take command Function :
@@ -129,6 +128,7 @@ def takeCommand():
             
 # Defining Task 3: To see the current Time
 first import datetime library then use datetime.now() function as :
+
         elif 'time' in statement:
             strTime=datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"the time is {strTime}")
